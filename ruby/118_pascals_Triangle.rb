@@ -1,10 +1,10 @@
 # Generates Pascal's Triangle up to a given number of rows.
 #
 # @param {Integer} num_rows - The number of rows to generate in Pascal's Triangle.
-# @param {Integer} row - The current row being generated (default is 1).
 # @param {Integer[][]} rows - The 2D array containing the generated triangle rows (default is [[1]]).
 # @return {Integer[][]} - Pascal's Triangle as a 2D array.
-def generate(num_rows, row = 1, rows = [[1]])
+def generate(num_rows, rows = [[1]])
+    row = rows.length() + 1
     return rows if row > num_rows
     if row > 2
         new_row = []
@@ -16,5 +16,5 @@ def generate(num_rows, row = 1, rows = [[1]])
         rows = rows << [1,1]
     end
 
-    return generate(num_rows, row + 1, rows)
+    return generate(num_rows, rows)
 end

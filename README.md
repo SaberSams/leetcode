@@ -39,4 +39,4 @@ To get started with this repository, you can follow these steps:
 
 
   ## License
-    This repository is licensed under the MIT License, which means you are free to use, modify, and distribute the code as long as you include the original copyright notice.
+This repository is licensed under the MIT License, which means you are free to use, modify, and distribute the code as long as you include the original copyright notice.

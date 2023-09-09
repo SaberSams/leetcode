@@ -18,12 +18,15 @@ LeetCode is a popular platform for practicing coding problems. This repository s
 To get started with this repository, you can follow these steps:
 
 1. **Clone the Repository:**
+
 ```bash
    git clone https://github.com/yourusername/leetcode-solutions.git
 ```
 
-  ## Folder Structure
-  You can explore and contribute to specific problems by navigating to their respective folders.
+## Folder Structure
+
+You can explore and contribute to specific problems by navigating to their respective folders.
+
 ```
     leetcode-solutions/
 ├── ProblemName1/
@@ -37,6 +40,6 @@ To get started with this repository, you can follow these steps:
 └── ...
 ```
 
+## License
 
-  ## License
 This repository is licensed under the MIT License, which means you are free to use, modify, and distribute the code as long as you include the original copyright notice.

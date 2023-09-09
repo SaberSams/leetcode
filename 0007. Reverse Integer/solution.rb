@@ -9,5 +9,6 @@ def reverse(x)
   if x >= 0
       return x.to_s.reverse.to_i
   end
+
   return ("-" + x.to_s.reverse).to_i
 end

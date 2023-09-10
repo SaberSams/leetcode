@@ -27,7 +27,7 @@ class LinkedList
 
   def add(value)
     value.is_a?(Node) ? add_node(value) : add_value(value)
-    
+
     current = @head
     current = current.next_node until current.next_node.nil?
     current.next_node = Node.new(value)

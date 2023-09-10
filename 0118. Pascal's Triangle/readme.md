@@ -27,13 +27,17 @@ def generate(num_rows, rows = [[1]])
 end
 ```
 
-## Usage 
+## Usage
+
 To use this Pascal's Triangle generator, you can call the generate function, passing the desired number of rows as an argument. The function will return Pascal's Triangle as a 2D array.
+
 ```ruby
 result = generate(5)
 puts result
 ```
+
 This will generate Pascal's Triangle with 5 rows and print the result.
 
 ## Algorithm
+
 The generate function uses a recursive approach to build each row of Pascal's Triangle. It starts with the first row (which is always [1]) and iteratively generates each subsequent row by summing the adjacent elements from the previous row.
